@@ -1,38 +1,18 @@
 #!/bin/bash
+echo "running script $0..."
+
 
 ############################## 公司机器
-# xcode setting
-pull_xcode_setting() {
-	~/Library/Developer/Xcode/UserData/.syn_tools/git_pull
-}
-
-# Android Studio
-pull_android_studio_setting(){
-	cd ~/Library/Application\ Support/Google/AndroidStudio2021.2/.syn_tools
-	./git_pull
-}
-
-# batch_sh 批量同步命令（给crontab用）
-pull_batch_sh(){
-	cd ~/.my_batch_sh
-	echo "git stash push..."
-	git add *
-	git stash push
-	echo "git pull..."
-	git pull
-	echo "git stash pop..."
-	git stash pop
-}
-
-
-# 同步脚本（调用各repo用）
-
+push_xcode_setting=~/Library/Developer/Xcode/UserData
+push_android_studio_setting=~/Library/Application\ Support/Google/AndroidStudio2021.2
+my_batch_sh=~/.my_batch_sh
+my_syn_tools=~/.my_syn_tools
 
 main(){
-	pull_batch_sh
-	pull_xcode_setting
-	pull_android_studio_setting
+	~/.my_syn_tools/.syn_tools/git_pull "$my_batch_sh"
+	~/.my_syn_tools/.syn_tools/git_pull "$my_syn_tools"
+	~/.my_syn_tools/.syn_tools/git_pull "$push_xcode_setting"
+	~/.my_syn_tools/.syn_tools/git_pull "$push_android_studio_setting"
 }
 
-
-main
+main 
