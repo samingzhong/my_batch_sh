@@ -288,3 +288,11 @@ exit_if_target_dir_not_exit...
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 23:24:15] ⏫⏫⏫⏫⏫ ----------------
 当前目录:/Users/zhongxm/.my_batch_sh
+fatal: No pathspec was given. Which files should I remove?
+[master 2702b96] 自动同步(push)[at 2022-07-11 23:24:15]
+ 1 file changed, 7 insertions(+)
+To github.com:samingzhong/my_batch_sh.git
+   c24ab79..2702b96  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 23:24:19] ⏫⏫⏫⏫⏫ ----------------
+
