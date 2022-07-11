@@ -14,6 +14,8 @@ my_opr_log_dir=~/work/my_opr_log
 kafu=~/work/kafu
 
 
+# exit 0
+
 
 push_my_setting {
 	~/.my_syn_tools/.syn_tools/git_push "$my_batch_sh"
@@ -42,6 +44,9 @@ push_my_working_repo_to_my_develop_branch () {
 }
 
 main(){
+
+	echo "sdfsaf"
+	exit 0
 
 # 推送配置类、工具类代码
 	# push_my_setting
