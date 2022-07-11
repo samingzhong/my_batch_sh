@@ -121,3 +121,18 @@ exit_if_target_dir_not_exit...
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 18:06:20] ⏫⏫⏫⏫⏫ ----------------
 当前目录:/Users/samingzhong/.my_batch_sh
+fatal: No pathspec was given. Which files should I remove?
+[master 9390b50] 自动同步(push)[at 2022-07-11 18:06:20]
+ 1 file changed, 23 insertions(+)
+To github.com:samingzhong/my_batch_sh.git
+   98075a7..9390b50  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 18:06:23] ⏫⏫⏫⏫⏫ ----------------
+
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/samingzhong/.my_batch_sh
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 18:08:11] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/samingzhong/.my_batch_sh
