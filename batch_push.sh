@@ -12,6 +12,7 @@ git_push=~/.my_syn_tools/.syn_tools/git_push
 
 # 项目代码本地目录
 kafu=~/work/kafu
+logger_plugin=~/work/logger_plugin
 
 
 # exit 0
@@ -55,6 +56,7 @@ push_current_branch_to_remote (){
 
 push_my_working_repo_to_my_develop_branch () {
 	push_current_branch_to_remote "$kafu"
+	push_current_branch_to_remote "$logger_plugin"
 
 	push_my_opr_log_dir
 }
