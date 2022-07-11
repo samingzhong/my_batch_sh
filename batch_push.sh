@@ -23,6 +23,9 @@ push_my_setting {
 }
 
 push_current_branch_to_remote (){
+	echo "running script $0..."
+	exit 0
+
 	targetDir=$2
 	log_name=$(echo "$targetDir"|sed 's/\//_/g')
 	echo "⏫⏫⏫⏫⏫⏫⏫⏫ push 操作 start at [$targetDir] ⏫⏫⏫⏫⏫⏫⏫⏫" >> "$my_opr_log_dir/${log_name}.log" 2>&1
