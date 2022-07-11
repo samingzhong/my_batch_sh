@@ -69,12 +69,11 @@ push_my_opr_log_dir () {
 
 main(){
 
+# 推送当前开发分支到远端
+	push_my_working_repo_to_my_develop_branch
 
 # 推送配置类、工具类代码
 	push_my_setting
-
-# 推送当前开发分支到远端
-	push_my_working_repo_to_my_develop_branch
 
 }
 

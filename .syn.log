@@ -198,3 +198,10 @@ To github.com:samingzhong/my_batch_sh.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 20:33:37] ⏫⏫⏫⏫⏫ ----------------
 
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/samingzhong/.my_batch_sh
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 20:50:01] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/samingzhong/.my_batch_sh
