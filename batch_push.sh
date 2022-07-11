@@ -45,6 +45,8 @@ push_current_branch_to_remote (){
 		echo "匹配到当前分支为_zxm结尾的分支" >> "$my_opr_log_dir/${log_name}.log" 2>&1
 	fi
 	
+	echo "git branch --unset-upstream..." >> "$my_opr_log_dir/${log_name}.log" 2>&1
+	git branch --unset-upstream >> "$my_opr_log_dir/${log_name}.log" 2>&1
 	echo "设置对应的远程分支git push --set-upstream origin "$tmp_branch" ..." >> "$my_opr_log_dir/${log_name}.log" 2>&1
 	git push --set-upstream origin "$tmp_branch" >> "$my_opr_log_dir/${log_name}.log" 2>&1
 
