@@ -13,7 +13,19 @@ push_android_studio_setting(){
 }
 
 
+# batch_sh 批量同步命令（给crontab用）
+push_batch_sh(){
+	cd ~/.my_batch_sh
+	git add *
+	git commit -m "更新batch_sh脚本内容"
+	echo "git push..."
+	git push
+}
+
+
+
 main(){
+	push_batch_sh
 	push_xcode_setting
 	push_android_studio_setting
 }
