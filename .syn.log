@@ -54,3 +54,12 @@ exit_if_target_dir_not_exit...
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 18:56:52] ⏫⏫⏫⏫⏫ ----------------
 当前目录:/Users/samingzhong/.my_batch_sh
+fatal: No pathspec was given. Which files should I remove?
+[master 00f78d1] 自动同步(push)[at 2022-07-11 18:56:52]
+ 4 files changed, 62 insertions(+), 13 deletions(-)
+ rewrite crontab.txt (60%)
+To github.com:samingzhong/my_batch_sh.git
+   e4739e3..00f78d1  master -> master
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/samingzhong/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 18:56:56] ⏫⏫⏫⏫⏫ ----------------
+
