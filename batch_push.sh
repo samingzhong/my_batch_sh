@@ -17,6 +17,7 @@ push_android_studio_setting(){
 push_batch_sh(){
 	cd ~/.my_batch_sh
 	git add *
+	git rm $(git ls-files --deleted)
 	git commit -m "更新batch_sh脚本内容"
 	echo "git push..."
 	git push
