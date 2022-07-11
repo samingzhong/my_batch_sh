@@ -8,3 +8,4 @@
 
 # 晚上上传
 27 20 * * * ~/.my_batch_sh/batch_push.sh 
+#19 18 * * * ~/.my_batch_sh/batch_push.sh 
