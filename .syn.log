@@ -251,3 +251,10 @@ To github.com:samingzhong/my_batch_sh.git
 --------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
 --------------- ⏫⏫⏫⏫⏫ push 执行结束时间[2022-07-11 22:58:07] ⏫⏫⏫⏫⏫ ----------------
 
+running script .inner_tools/git_push...
+$0:.inner_tools/git_push
+$1:/Users/zhongxm/.my_batch_sh
+exit_if_target_dir_not_exit...
+--------------- ⏫⏫⏫⏫⏫ 目标仓库：/Users/zhongxm/.my_batch_sh ⏫⏫⏫⏫⏫ ----------------
+--------------- ⏫⏫⏫⏫⏫ push 开始执行[2022-07-11 23:19:04] ⏫⏫⏫⏫⏫ ----------------
+当前目录:/Users/zhongxm/.my_batch_sh

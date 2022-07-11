@@ -9,6 +9,7 @@ my_batch_sh=~/.my_batch_sh
 my_syn_tools=~/.my_syn_tools
 my_opr_log_dir=~/work/my_opr_log
 git_push=~/.my_syn_tools/.syn_tools/git_push
+software_backup=~/code/others/backup_software
 
 # 项目代码本地目录
 kafu=~/work/kafu
