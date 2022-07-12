@@ -2,16 +2,24 @@
 echo "running script $0..."
 
 
-############################## 公司机器 ##############################
+############################## 公司机器（可以通过IP或者机器名称做判断，暂不支持）
+# 对应GitHub仓库
+# 同步工具链
 push_xcode_setting=~/Library/Developer/Xcode/UserData
 push_android_studio_setting=~/Library/Application\ Support/Google/AndroidStudio2021.2
 my_batch_sh=~/.my_batch_sh
 my_syn_tools=~/.my_syn_tools
+
+# 拉取/推送workingspace的操作日志
 my_opr_log_dir=~/work/my_opr_log
+
+# 脚本路径
 git_push=~/.my_syn_tools/.syn_tools/git_push
+
+# 软件备份目录
 software_backup=~/code/others/backup_software
 
-# 项目代码本地目录
+# 项目代码本地目录(对应内网gitlab仓库)
 kafu=~/work/kafu
 logger_plugin=~/work/logger_plugin
 
